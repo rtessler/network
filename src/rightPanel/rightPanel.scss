@@ -1,0 +1,14 @@
+@import '../css/variables';
+
+.right-panel {
+
+  background: #fff;
+  display: flex;
+  flex-grow: 1;
+
+  .canvas-container {
+    margin: 7px;
+    border: 1px solid $grey;
+    box-sizing: border-box;
+  }
+}
