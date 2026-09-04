@@ -1,4 +1,5 @@
-@import '../css/variables';
+// @import '../css/variables';
+@use '../css/variables' as vars;
 
 .right-panel {
 
@@ -8,7 +9,7 @@
 
   .canvas-container {
     margin: 7px;
-    border: 1px solid $grey;
+    border: 1px solid vars.$grey;
     box-sizing: border-box;
   }
 }

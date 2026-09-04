@@ -1,9 +1,10 @@
-@import '../css/variables';
+// @import '../css/variables';
+@use '../css/variables' as vars;
 
 .left-panel {
 
   max-width: 250px;
-  background: $white;
+  background: vars.$white;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

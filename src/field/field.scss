@@ -1,8 +1,10 @@
-@import '../css/variables';
+// @import '../css/variables';
+
+@use '../css/variables' as vars;
 
 .field {
 
-  .error-msg { color: $red; }
+  .error-msg { color: vars.$red; }
 
   margin: 10px 0px;
 
@@ -14,7 +16,7 @@
     input {
       padding: 5px;
       border-radius: 5px;
-      border: 1px solid $grey;
+      border: 1px solid vars.$grey;
     
       &.uppercase {
         input {

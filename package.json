@@ -3,18 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/runtime": "^7.6.0",
-    "dijkstrajs": "^1.0.1",
-    "node-sass": "^4.13.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "5.0.1"
+    "dijkstrajs": "^1.0.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "sass": "^1.104.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^5.4.11"
   },
   "eslintConfig": {
     "extends": "react-app"
