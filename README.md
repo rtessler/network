@@ -1,14 +1,16 @@
-### Netork generator
+# Network generator
 
 Generate a network of n points
-Display it in a browser
-find the 2 most distant point
-use the dijkstra algorithm to find shot path between them
-draw the path
+Display it in a browser, find the two most distant points, use Dijkstra's
+algorithm to find the shortest path between them, and draw the path.
 
-created with create-react-app
+Built with React, TypeScript, and Vite.
 
+```sh
 npm install
-npm start
+npm run dev
+```
+
+Run `npm test` for tests and `npm run build` for a type-checked production build.
 
 ![](screenshot.png)
